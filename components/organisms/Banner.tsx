@@ -6,8 +6,8 @@ export default function Banner(){
         </img>
         
         <div className="text-center">
-            <p className="text-xl font-bold">Selamat Datang di CariFilm</p>
-            <p className="text-sm text-gray-600">Semua film tersedia.. kayanya</p>
+            <p className="text-xl font-bold">Selamat Datang di Listfilm</p>
+            <p className="text-sm text-gray-600">Semua film tersedia</p>
         </div>
 
     </div>
