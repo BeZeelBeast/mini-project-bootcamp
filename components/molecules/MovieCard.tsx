@@ -1,4 +1,10 @@
-export default function MovieCard({ movie }: { movie: any }) {
+export interface MovieProps {
+  id : number;
+  title : string;
+  poster_path : string;
+}
+
+export default function MovieCard({ movie }: { movie: MovieProps }) {
   return (
     <div className="w-50 shadow-xl hover:scale-105 transition-all">
       <img

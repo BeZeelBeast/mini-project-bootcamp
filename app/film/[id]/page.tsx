@@ -1,7 +1,7 @@
 
 async function getMovie(id: string) {
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${id}?api_key=d29d167ccdb16f9243559be300fb92d3`
+    `https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.TMDB_API_KEY}`
   );
   const film = await res.json();
   return film;
